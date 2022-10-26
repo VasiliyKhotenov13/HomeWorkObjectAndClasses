@@ -19,6 +19,16 @@ public class Main {
         warAndPeace.setYearOfPublication(1864);
         System.out.println("Дата публикации книги: " + warAndPeace.getYearOfPublication());
 
+        System.out.println();
+
+        System.out.println(stephenKing.toString());
+        System.out.println(SalemLot.toString());
+        System.out.println(levTolstoy.toString());
+        System.out.println(warAndPeace.toString());
+
+        System.out.println("Книги одинаковые: " + SalemLot.equals(warAndPeace));
+        System.out.println("Авторы одни и те же: " + stephenKing.equals(levTolstoy));
+
 
     }
 }
