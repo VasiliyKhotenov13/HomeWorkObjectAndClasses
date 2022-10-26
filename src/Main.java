@@ -28,6 +28,13 @@ public class Main {
 
         System.out.println("Книги одинаковые: " + SalemLot.equals(warAndPeace));
         System.out.println("Авторы одни и те же: " + stephenKing.equals(levTolstoy));
+        System.out.println();
+        System.out.println("Какие у книг хэш-коды?");
+        System.out.println("Жребий Салема - " + SalemLot.hashCode());
+        System.out.println("Война и Мир - " + warAndPeace.hashCode());
+        System.out.println("Какие у авторов хэш-коды?");
+        System.out.println("Стивен Кинг - " + stephenKing.hashCode());
+        System.out.println("Лев Толстой - " + levTolstoy.hashCode());
 
 
     }
