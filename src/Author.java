@@ -3,16 +3,14 @@ import java.util.Objects;
 public class Author {
     private final String name;
     private final String lastName;
-    String nameAuthor;
 
     public Author(String name, String lastName) {
         this.name = name;
         this.lastName = lastName;
-        this.nameAuthor = name + ' ' + lastName;
     }
 
     public String getNameAuthor() {
-        return this.nameAuthor;
+        return this.name + ' ' + this.lastName;
     }
 
     public String getName() {
