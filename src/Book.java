@@ -2,7 +2,7 @@ import java.util.Objects;
 
 public class Book {
     private final String bookTitle;
-    int yearOfPublication;
+    private int yearOfPublication;
     private final Author author;
 
 
